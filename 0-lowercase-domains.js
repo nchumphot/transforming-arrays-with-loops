@@ -4,6 +4,11 @@ name: returnLowercase
 parameter NAMES: Array<string>
 return RESULT: Array<string>
 =======================
+pseudocode:
+create an empty array named RESULT
+for each NAME in NAMES:
+    add lowercase version of NAME in RESULT
+return RESULT
 */
 
 // TEST CASES
