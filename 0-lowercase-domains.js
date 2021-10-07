@@ -11,5 +11,14 @@ for each NAME in NAMES:
 return RESULT
 */
 
+// JAVASCRIPT IMPLEMENTATION
+function returnLowercase(names) {
+    let result = [];
+    for (let name of names) {
+        result.push(name.toLowerCase());
+    }
+    return result;
+}
+
 // TEST CASES
 console.log('returnLowercase(["academy.tech", "GITHUB.COM", "StackOverflow.com", "mOzIlLa.OrG"]):',returnLowercase(["academy.tech", "GITHUB.COM", "StackOverflow.com", "mOzIlLa.OrG"]),'should return ["academy.tech", "github.com", "stackoverflow.com", "mozilla.org"]');
